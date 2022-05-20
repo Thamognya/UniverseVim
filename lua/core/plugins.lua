@@ -5,6 +5,8 @@ local astro_plugins = {
 
   ["github/copilot.vim"] = {},
 
+  ["jceb/vim-orgmode"] = {},
+
 
   ["AlphaTechnolog/pywal.nvim"] = {},
 
