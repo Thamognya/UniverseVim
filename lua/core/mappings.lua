@@ -45,8 +45,8 @@ if is_available "bufferline.nvim" then
   map("n", ">b", "<cmd>BufferLineMoveNext<cr>", { desc = "Move buffer tab right" })
   map("n", "<b", "<cmd>BufferLineMovePrev<cr>", { desc = "Move buffer tab left" })
 else
-  map("n", "<S-l>", "<cmd>bnext<cr>", { desc = "Next buffer" })
-  map("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
+  map("n", "<leader>bn", "<cmd>bnext<cr>", { desc = "Next buffer" })
+  map("n", "<leader>bp", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
 end
 
 -- Comment
@@ -95,8 +95,8 @@ end
 
 -- NeoTree
 if is_available "neo-tree.nvim" then
-  map("n", "<leader>e", "<cmd>Neotree toggle<cr>", { desc = "Toggle Explorer" })
-  map("n", "<leader>o", "<cmd>Neotree focus<cr>", { desc = "Focus Explorer" })
+  map("n", "<leader>nt", "<cmd>Neotree toggle<cr>", { desc = "Toggle Explorer" })
+  map("n", "<leader>nf", "<cmd>Neotree focus<cr>", { desc = "Focus Explorer" })
 end
 
 -- Session Manager

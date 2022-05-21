@@ -1,3 +1,22 @@
+<h1 align="center">UniverseVim</h1>
+
+A closely monitored fork of AstroNvim with pywal and improved aesthetics like using lualine, 4 space tab and etc. Made by Thamognya Kodi
+
+<code>
+    <leader> = space_key
+    -- useful key maps
+    <leader> + ns = starts neotree
+    <leader> + tf = starts floating terminal
+</code>
+
+## License
+
+`SPDX-License-Identifier: MIT AND GPL-3.0-or-later`
+
+The following licenses are present in the licenses folder.
+
+<hr>
+
 <div align="center" id="madewithlua">
     <img src="https://astronvim.github.io/img/logo/astronvim.svg" width="110", height="100">
 </div>

@@ -8,7 +8,11 @@ local astro_plugins = {
   ["jceb/vim-orgmode"] = {},
 
 
-  ["AlphaTechnolog/pywal.nvim"] = {},
+  ["AlphaTechnolog/pywal.nvim"] = {
+    config = function()
+      require("configs.pywal").config()
+    end,
+  },
 
   -- Optimiser
   ["lewis6991/impatient.nvim"] = {},
