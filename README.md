@@ -9,6 +9,8 @@ A closely monitored fork of AstroNvim with pywal and improved aesthetics like us
     <leader> + tf = starts floating terminal
 </code>
 
+Requrire nerdfont
+
 ## License
 
 `SPDX-License-Identifier: MIT AND GPL-3.0-or-later`
