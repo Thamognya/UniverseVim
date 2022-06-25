@@ -3,8 +3,6 @@ local astro_plugins = {
   ["wbthomason/packer.nvim"] = {},
 
 
-  ["github/copilot.vim"] = {},
-
   ["jceb/vim-orgmode"] = {},
 
 
