@@ -32,6 +32,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     updatetime = 300, -- Length of time to wait before triggering the plugin
     wrap = true, -- enable wrapping of lines longer than the width of window
     writebackup = false, -- Disable making a backup before overwriting a file
+    ft = "xxd",
   },
   g = {
     do_filetype_lua = 1, -- use filetype.lua
@@ -56,5 +57,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     loaded_zipPlugin = true, -- disable zip
     loaded_vimball = true, -- disable vimball
     loaded_vimballPlugin = true, -- disable vimball
+    hexmode_patterns = "*.bin, *.exe, *.dat, *.o",
+    hexmod_xxd_options = "-g 1",
   },
 }))

@@ -4,8 +4,10 @@ local map = vim.keymap.set
 map("", "<Space>", "<Nop>") -- disable space because leader
 
 -- Normal --
+--hex
+map("n", "<leader>hx", "<cmd>%!xxd<cr>", { desc = "hexeditor" })
 -- Standard Operations
-map("n", "<leader>w", "<cmd>w<cr>", { desc = "Save" })
+map("n", "<leader>w", "<cmd>w | q<cr>", { desc = "Save" })
 map("n", "<leader>q", "<cmd>q<cr>", { desc = "Quit" })
 map("n", "<leader>h", "<cmd>nohlsearch<cr>", { desc = "No Highlight" })
 map("n", "<leader>u", function()
