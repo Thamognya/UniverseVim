@@ -2,7 +2,7 @@ local utils = require('utils')
 local nvim_tree_events = require('nvim-tree.events')
 local bufferline_state = require('bufferline.state')
 
-local TREE_WIDTH = 40
+local TREE_WIDTH = 20
 
 local git_icons = {
   unstaged = "",
