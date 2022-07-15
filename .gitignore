@@ -1,2 +1,4 @@
-spell
-.DS_Store
+plugin
+lua/user
+lua/packer_compiled.lua
+ginit.vim
